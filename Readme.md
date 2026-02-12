@@ -1,6 +1,6 @@
-# Vector Databases and the BoxLang/CFML Developer
+# Vector Databases and the Developer
 
-This repo holds the demos from my Vector Databases and the BoxLang/CFML Developer. The slide deck is also included as a pdf. There are 3 demos each in a folder. The first one is a color picker that searches colors by vector, the second categorizes items using vectors, and the 3rd is an example of long term cache and semantic searching using a vector database.
+This repo holds the demos from my Vector Databases and the Developer. The slide deck is also included as a pdf. There are 3 demos each in a folder. The first one is a color picker that searches colors by vector, the second categorizes items using vectors, and the 3rd is an example of long term cache and semantic searching using a vector database.
 
 ## Color Picker Demo
 
