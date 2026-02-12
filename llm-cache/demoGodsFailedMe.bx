@@ -1,0 +1,181 @@
+class cachecall {
+	function main() {
+		dump('
+Old Data Purged
+
+=== LLM cache demo: exact match + semantic similarity ===
+Pass 1: Cold cache (no prior answers).
+
+Data embedded and saved to Couchbase
+--- Query: "What is Lumon?" ---
+Lumon Industries is the **mysterious, powerful, and shadowy corporation** at the center of the Apple TV+ series *Severance*.
+
+Here''s a breakdown of what makes Lumon what it is:
+
+1.  **The Severance Procedure:** Its defining innovation is the "severance procedure," a surgical implant that permanently divides a person''s non-work memories from their work memories. This creates two distinct consciousnesses within one body:
+    *   **The "Innie":** Only exists inside Lumon, remembers nothing of their outside life, and works exclusively within the company''s severed floors.
+    *   **The "Outie":** Lives the outside world, remembers nothing of their work life, and only experiences the moments they enter and leave the Lumon building.
+
+2.  **Cult-like Corporate Culture:** Lumon is more than just a company; it operates with an almost religious devotion to its founder, Kier Eagan. Its corporate philosophy is steeped in his teachings, creating a paternalistic, manipulative, and often unsettling environment for its employees, especially the "innies."
+
+3.  **Secrecy and Control:** The true purpose of many of Lumon''s departments (like Macrodata Refinement) is deliberately obscured, even from the severed employees themselves. The company wields immense power and influence, operating with extreme secrecy and control over its employees'' lives, both "innies" and "outies."
+
+4.  **Enigmatic Operations:** Much of what Lumon does, particularly on the severed floors, remains a mystery. The show constantly hints at dark, unethical, or even world-altering objectives that go far beyond typical corporate pursuits.
+
+In essence, Lumon is the central antagonist and the enigmatic force driving the narrative of *Severance*, raising profound questions about identity, work-life balance, corporate ethics, and free will.
+  Time: 8084ms
+
+Data embedded and saved to Couchbase
+--- Query: "Who is Mark S in Serverance?" ---
+In the show *Severance*, **Mark S** is the *innie* version of **Mark Scout**, the protagonist.
+
+Here''s a breakdown:
+
+*   **Mark S** refers specifically to the part of Mark''s consciousness that exists only within the confines of Lumon Industries. He has no memories of his life outside the office.
+*   He is the leader of the Macrodata Refinement (MDR) division, a team of severed employees who process mysterious numbers on a computer.
+*   He is initially a compliant, somewhat melancholic employee, but as the series progresses, he becomes increasingly curious and rebellious, seeking to understand the true nature of Lumon and his own existence.
+*   He is played by **Adam Scott**.
+
+His *outie* self, Mark Scout, is a grieving widower who chose to undergo the severance procedure to escape the pain of his real life during work hours. The show explores the profound psychological and ethical implications of this split consciousness.
+  Time: 7113ms
+
+Data embedded and saved to Couchbase
+--- Query: "Why are there goats on the servered floor?" ---
+This sounds very much like a reference to the video game **Elden Ring**, particularly in areas like **Stormveil Castle**.
+
+In Elden Ring, you often encounter goats (sometimes called "Stormveil Goats" when they have more aggressive variants) in ruined, elevated, or "severed" areas of the game world.
+
+Here''s why they might be there:
+
+1.  **Environmental Storytelling/Atmosphere:**
+    *   **Resilience of Nature:** The presence of animals like goats, even in heavily damaged and war-torn areas like Stormveil Castle, emphasizes that life continues and adapts. It shows that even amidst the decay and the remnants of a once-grand civilization, nature persists. Goats are known for being hardy and good climbers, making them suitable inhabitants for broken, elevated terrain.
+    *   **Sense of Abandonment:** Their presence highlights that the human (or demigod) inhabitants have largely left, allowing the local fauna to reclaim these spaces.
+
+2.  **World-building:**
+    *   They are simply part of the local fauna that has adapted to the various biomes and ruins of the Lands Between. The world feels more alive and natural when it has creatures occupying all sorts of niches, even strange ones.
+
+3.  **Minor Gameplay Elements:**
+    *   Killing them provides runes and crafting materials (like Thin Beast Bones), which are useful for early-game crafting.
+
+So, while there isn''t deep, specific lore explaining *why* those particular goats are on that particular severed floor, their presence primarily serves to enhance the game''s atmosphere, world-building, and environmental storytelling, showing a world where nature endures despite immense destruction.
+
+If you''re thinking of a different game or context, please provide more details!
+  Time: 9076ms
+
+Pass 2: Same questions (should hit exact cache).
+
+--- Query: "What is Lumon?" ---
+Lumon Industries is the **mysterious, powerful, and shadowy corporation** at the center of the Apple TV+ series *Severance*.
+
+Here''s a breakdown of what makes Lumon what it is:
+
+1.  **The Severance Procedure:** Its defining innovation is the "severance procedure," a surgical implant that permanently divides a person''s non-work memories from their work memories. This creates two distinct consciousnesses within one body:
+    *   **The "Innie":** Only exists inside Lumon, remembers nothing of their outside life, and works exclusively within the company''s severed floors.
+    *   **The "Outie":** Lives the outside world, remembers nothing of their work life, and only experiences the moments they enter and leave the Lumon building.
+
+2.  **Cult-like Corporate Culture:** Lumon is more than just a company; it operates with an almost religious devotion to its founder, Kier Eagan. Its corporate philosophy is steeped in his teachings, creating a paternalistic, manipulative, and often unsettling environment for its employees, especially the "innies."
+
+3.  **Secrecy and Control:** The true purpose of many of Lumon''s departments (like Macrodata Refinement) is deliberately obscured, even from the severed employees themselves. The company wields immense power and influence, operating with extreme secrecy and control over its employees'' lives, both "innies" and "outies."
+
+4.  **Enigmatic Operations:** Much of what Lumon does, particularly on the severed floors, remains a mystery. The show constantly hints at dark, unethical, or even world-altering objectives that go far beyond typical corporate pursuits.
+
+In essence, Lumon is the central antagonist and the enigmatic force driving the narrative of *Severance*, raising profound questions about identity, work-life balance, corporate ethics, and free will.
+  Time: 95ms
+
+--- Query: "Who is Mark S in Serverance?" ---
+In the show *Severance*, **Mark S** is the *innie* version of **Mark Scout**, the protagonist.
+
+Here''s a breakdown:
+
+*   **Mark S** refers specifically to the part of Mark''s consciousness that exists only within the confines of Lumon Industries. He has no memories of his life outside the office.
+*   He is the leader of the Macrodata Refinement (MDR) division, a team of severed employees who process mysterious numbers on a computer.
+*   He is initially a compliant, somewhat melancholic employee, but as the series progresses, he becomes increasingly curious and rebellious, seeking to understand the true nature of Lumon and his own existence.
+*   He is played by **Adam Scott**.
+
+His *outie* self, Mark Scout, is a grieving widower who chose to undergo the severance procedure to escape the pain of his real life during work hours. The show explores the profound psychological and ethical implications of this split consciousness.
+  Time: 91ms
+
+--- Query: "Why are there goats on the servered floor?" ---
+This sounds very much like a reference to the video game **Elden Ring**, particularly in areas like **Stormveil Castle**.
+
+In Elden Ring, you often encounter goats (sometimes called "Stormveil Goats" when they have more aggressive variants) in ruined, elevated, or "severed" areas of the game world.
+
+Here''s why they might be there:
+
+1.  **Environmental Storytelling/Atmosphere:**
+    *   **Resilience of Nature:** The presence of animals like goats, even in heavily damaged and war-torn areas like Stormveil Castle, emphasizes that life continues and adapts. It shows that even amidst the decay and the remnants of a once-grand civilization, nature persists. Goats are known for being hardy and good climbers, making them suitable inhabitants for broken, elevated terrain.
+    *   **Sense of Abandonment:** Their presence highlights that the human (or demigod) inhabitants have largely left, allowing the local fauna to reclaim these spaces.
+
+2.  **World-building:**
+    *   They are simply part of the local fauna that has adapted to the various biomes and ruins of the Lands Between. The world feels more alive and natural when it has creatures occupying all sorts of niches, even strange ones.
+
+3.  **Minor Gameplay Elements:**
+    *   Killing them provides runes and crafting materials (like Thin Beast Bones), which are useful for early-game crafting.
+
+So, while there isn''t deep, specific lore explaining *why* those particular goats are on that particular severed floor, their presence primarily serves to enhance the game''s atmosphere, world-building, and environmental storytelling, showing a world where nature endures despite immense destruction.
+
+If you''re thinking of a different game or context, please provide more details!
+  Time: 107ms
+
+Pass 3: Similar questions (semantic cache match).
+
+  [Semantic cache hit, score: 0.962]
+--- Query: "What is Lumon in AppleTV" ---
+Lumon Industries is the **mysterious, powerful, and shadowy corporation** at the center of the Apple TV+ series *Severance*.
+
+Here''s a breakdown of what makes Lumon what it is:
+
+1.  **The Severance Procedure:** Its defining innovation is the "severance procedure," a surgical implant that permanently divides a person''s non-work memories from their work memories. This creates two distinct consciousnesses within one body:
+    *   **The "Innie":** Only exists inside Lumon, remembers nothing of their outside life, and works exclusively within the company''s severed floors.
+    *   **The "Outie":** Lives the outside world, remembers nothing of their work life, and only experiences the moments they enter and leave the Lumon building.
+
+2.  **Cult-like Corporate Culture:** Lumon is more than just a company; it operates with an almost religious devotion to its founder, Kier Eagan. Its corporate philosophy is steeped in his teachings, creating a paternalistic, manipulative, and often unsettling environment for its employees, especially the "innies."
+
+3.  **Secrecy and Control:** The true purpose of many of Lumon''s departments (like Macrodata Refinement) is deliberately obscured, even from the severed employees themselves. The company wields immense power and influence, operating with extreme secrecy and control over its employees'' lives, both "innies" and "outies."
+
+4.  **Enigmatic Operations:** Much of what Lumon does, particularly on the severed floors, remains a mystery. The show constantly hints at dark, unethical, or even world-altering objectives that go far beyond typical corporate pursuits.
+
+In essence, Lumon is the central antagonist and the enigmatic force driving the narrative of *Severance*, raising profound questions about identity, work-life balance, corporate ethics, and free will.
+  Time: 469ms
+
+  [Semantic cache hit, score: 0.899]
+--- Query: "Who is Mark S ?" ---
+In the show *Severance*, **Mark S** is the *innie* version of **Mark Scout**, the protagonist.
+
+Here''s a breakdown:
+
+*   **Mark S** refers specifically to the part of Mark''s consciousness that exists only within the confines of Lumon Industries. He has no memories of his life outside the office.
+*   He is the leader of the Macrodata Refinement (MDR) division, a team of severed employees who process mysterious numbers on a computer.
+*   He is initially a compliant, somewhat melancholic employee, but as the series progresses, he becomes increasingly curious and rebellious, seeking to understand the true nature of Lumon and his own existence.
+*   He is played by **Adam Scott**.
+
+His *outie* self, Mark Scout, is a grieving widower who chose to undergo the severance procedure to escape the pain of his real life during work hours. The show explores the profound psychological and ethical implications of this split consciousness.
+  Time: 366ms
+
+  [Semantic cache hit, score: 0.903]
+--- Query: "Why are there goats in Serverance?" ---
+This sounds very much like a reference to the video game **Elden Ring**, particularly in areas like **Stormveil Castle**.
+
+In Elden Ring, you often encounter goats (sometimes called "Stormveil Goats" when they have more aggressive variants) in ruined, elevated, or "severed" areas of the game world.
+
+Here''s why they might be there:
+
+1.  **Environmental Storytelling/Atmosphere:**
+    *   **Resilience of Nature:** The presence of animals like goats, even in heavily damaged and war-torn areas like Stormveil Castle, emphasizes that life continues and adapts. It shows that even amidst the decay and the remnants of a once-grand civilization, nature persists. Goats are known for being hardy and good climbers, making them suitable inhabitants for broken, elevated terrain.
+    *   **Sense of Abandonment:** Their presence highlights that the human (or demigod) inhabitants have largely left, allowing the local fauna to reclaim these spaces.
+
+2.  **World-building:**
+    *   They are simply part of the local fauna that has adapted to the various biomes and ruins of the Lands Between. The world feels more alive and natural when it has creatures occupying all sorts of niches, even strange ones.
+
+3.  **Minor Gameplay Elements:**
+    *   Killing them provides runes and crafting materials (like Thin Beast Bones), which are useful for early-game crafting.
+
+So, while there isn''t deep, specific lore explaining *why* those particular goats are on that particular severed floor, their presence primarily serves to enhance the game''s atmosphere, world-building, and environmental storytelling, showing a world where nature endures despite immense destruction.
+
+If you''re thinking of a different game or context, please provide more details!
+  Time: 389ms
+
+
+		')
+	}
+}

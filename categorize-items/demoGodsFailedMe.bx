@@ -1,0 +1,26 @@
+class cachecall {
+	function main() {
+		dump('
+Old Data Purged
+Data embedded and saved to Couchbase
+
+Catalog items embedded. Querying for top 3 nearest items per query.
+(Higher score = more similar.)
+
+--- Query: "Coffee Cozies" ---
+  1.  0.778  Finger Traps
+  2.  0.761  Erasers
+  3.  0.755  Manual Pages
+
+--- Query: "Goodbye, Things" ---
+  1.  0.783  Erasers
+  2.  0.77  Hall Pass
+  3.  0.768  The You You Are (Book)
+
+--- Query: "Portraiture of Kier Eagan" ---
+  1.  0.849  Kier Invites You to Drink of His Water
+  2.  0.839  Kier Pardons His Betrayers
+  3.  0.765  Manual Pages
+		')
+	}
+}

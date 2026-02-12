@@ -1,0 +1,19 @@
+class {
+
+	public function init() {
+		return this;
+	}
+
+	public function embed(text) {
+		text = text & " " & "Apple TV Series Severance";
+		return aiEmbed( arguments.text )
+	}
+
+	public function batchEmbed(array text) {
+		var arText = arguments.text.map( part -> {
+			return aiEmbed( part ).data[1].embedding;
+		})
+
+		return arText;
+	}
+}

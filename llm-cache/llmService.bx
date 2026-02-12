@@ -1,0 +1,39 @@
+class {
+
+	public function init() {
+		return this;
+	}
+
+
+	public function chatWithLLM(text) {
+		var aiService = aiService();
+		var chatRequest = aiChatRequest(arguments.text);
+		chatRequest.setReturnFormat('raw');
+		chatRequest.setParams({
+		"contents": [{
+					"role" : "user",
+					"parts": [ {
+						"text": arguments.text
+					} ]
+				}
+			]
+		});
+		fullResponse = aiService.invoke( chatRequest );
+		response = fullResponse.candidates[1].content.parts[1].text;
+		return response;
+	}
+
+
+	public function embed(text) {
+		return aiEmbed( arguments.text )
+	}
+
+
+	public function batchEmbed(array text) {
+		var arText = arguments.text.map( part -> {
+			return aiEmbed( part ).data[1].embedding;
+		})
+
+		return arText;
+	}
+}
